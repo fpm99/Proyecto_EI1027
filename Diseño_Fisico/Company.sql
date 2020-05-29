@@ -5,5 +5,7 @@ address VARCHAR(20),
 CPName VARCHAR(20),
 CPPhoneNumber VARCHAR(25),
 CPPersonEmail VARCHAR(20), 
+userc VARCHAR(20),
+password VARCHAR(20),
 CONSTRAINT cp_company PRIMARY KEY (CIF)
 );
